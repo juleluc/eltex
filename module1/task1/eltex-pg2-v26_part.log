@@ -1,0 +1,198 @@
+Script started on 2025-03-25 00:32:39+07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ bashexitscreen -lsS пользователь\ в\ системе_part2 -d -m
+[?2004l[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ screen -ls
+[?2004lThere are screens on:
+	2658316.пользователь в системе_part2	(25.03.2025 00:32:42)	(Detached)
+	1136954.pts-51.eltex	(20.03.2025 00:18:34)	(Detached)
+	1132825.top	(19.03.2025 23:57:18)	(Detached)
+	1127405.pts-35.eltex	(19.03.2025 23:28:56)	(Detached)
+4 Sockets in /run/screen/S-eltex-pg2-v26.
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ ls
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ ls[K[Kecho $HIST
+$HISTCMD         $HISTFILE        $HISTSIZE        
+$HISTCONTROL     $HISTFILESIZE    $HISTTIMEFORMAT  
+]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ echo $HIST[K[K[K[K[K[K[K[K[K[K[7mcompgen -v HIST[27mcompgen -v HIST
+[?2004lHISTCMD
+HISTCONTROL
+HISTFILE
+HISTFILESIZE
+HISTSIZE
+HISTTIMEFORMAT
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mecho $HISTSIZE[27mecho $HISTSIZE
+[?2004l1000
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mls -d ~/.*[27mls -d ~/.*
+[?2004l/home/eltex-pg2-v26/.bash_history  /home/eltex-pg2-v26/.log
+/home/eltex-pg2-v26/.bash_logout   /home/eltex-pg2-v26/.profile
+/home/eltex-pg2-v26/.bashrc        /home/eltex-pg2-v26/.report_part1.txt.swo
+/home/eltex-pg2-v26/.bashrc.save   [0m[00;90m/home/eltex-pg2-v26/.report_part1.txt.swp[0m
+[01;34m/home/eltex-pg2-v26/.config[0m        [01;34m/home/eltex-pg2-v26/.ssh[0m
+/home/eltex-pg2-v26/.lesshst       /home/eltex-pg2-v26/.viminfo
+[01;34m/home/eltex-pg2-v26/.local[0m
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mexport HISTTIMEFORMAT='%F %T '[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport HISTTIMEFORMAT='%F %T '
+[?2004l[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mhistory | tail -n 10[27mhistory | tail -n 10
+[?2004l  635  2025-03-25 00:30:24 screen -ls
+  636  2025-03-25 00:30:37 exit
+  637  2025-03-20 19:54:47 bash
+  638  2025-03-25 00:32:42 screen -S пользователь\ в\ системе_part2 -d -m
+  639  2025-03-25 00:32:46 screen -ls
+  640  2025-03-25 00:33:48 compgen -v HIST
+  641  2025-03-25 00:34:04 echo $HISTSIZE
+  642  2025-03-25 00:34:17 ls -d ~/.*
+  643  2025-03-25 00:34:51 export HISTTIMEFORMAT='%F %T '
+  644  2025-03-25 00:35:02 history | tail -n 10
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mtail -n 5 ~/.bash_history [27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -n 5 ~/.bash_history 
+[?2004lscreen -ls
+#1742837437
+exit
+#1742475287
+bash
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ date
+[?2004lВт 25 мар 2025 00:36:11 +07
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ datetail -n 5 ~/.bash_history [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Phistory | tail -n 10[K[K5
+[?2004l  643  2025-03-25 00:34:51 export HISTTIMEFORMAT='%F %T '
+  644  2025-03-25 00:35:02 history | tail -n 10
+  645  2025-03-25 00:35:48 tail -n 5 ~/.bash_history 
+  646  2025-03-25 00:36:11 date
+  647  2025-03-25 00:36:17 history | tail -n 5
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ history | tail -n 5date[Ktail -n 5 ~/.bash_history 
+[?2004lscreen -ls
+#1742837437
+exit
+#1742475287
+bash
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mexport PROMPT_COMMAND='history -a'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PROMPT_COMMAND='history -a'
+[?2004l[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7msource ~/.bashrc[27msource ~/.bashrc
+[?2004l[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ date
+[?2004lВт 25 мар 2025 00:37:12 +07
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ whoami
+[?2004leltex-pg2-v26
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mtail -n 4 ~/.bash_history[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -n 4 ~/.bash_history
+[?2004l#1742837832
+date
+#1742837835
+whoami
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mDATE=$(date +%Y-%m-%d)[27mDATE=$(date +%Y-%m-%d)
+[?2004l[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mecho $DATE[27mecho $DATE
+[?2004l2025-03-25
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mTIME=$(date +%H:%M:%S)[27mTIME=$(date +%H:%M:%S)
+[?2004l[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mecho $TIME[27mecho $TIME
+[?2004l00:38:09
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mDATE_TIME="$DATE $TIME"[27mDATE_TIME="$DATE $TIME"
+[?2004l[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mecho $DATE_TIME[27mecho $DATE_TIME
+[?2004l2025-03-25 00:38:09
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mfind /usr/bin /usr/sbin -type f -name '[0-9]'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /usr/bin /usr/sbin -type f -name '[0-9]'
+[?2004l[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mfind /usr/bin /usr/sbin -type f -name '*[0-9]*'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /usr/bin /usr/sbin -type f -name '*[0-9]*'
+[?2004l/usr/bin/pod2html
+/usr/bin/python3.11
+/usr/bin/ssh-argv0
+/usr/bin/c99-gcc
+/usr/bin/x86_64-linux-gnu-gcc-ar-12
+/usr/bin/base64
+/usr/bin/x86_64-linux-gnu-gcc-ranlib-12
+/usr/bin/enc2xs
+/usr/bin/x86_64-linux-gnu-gcov-12
+/usr/bin/pod2usage
+/usr/bin/x86_64-linux-gnu-objdump
+/usr/bin/sha224sum
+/usr/bin/x86_64-linux-gnu-objcopy
+/usr/bin/bzip2
+/usr/bin/x86_64-linux-gnu-readelf
+/usr/bin/x86_64-linux-gnu-ar
+/usr/bin/grub-mkpasswd-pbkdf2
+/usr/bin/md5sum
+/usr/bin/bzip2recover
+/usr/bin/grub-menulst2cfg
+/usr/bin/x86_64-linux-gnu-cpp-12
+/usr/bin/x86_64-linux-gnu-size
+/usr/bin/x86_64-linux-gnu-gprofng
+/usr/bin/x86_64-linux-gnu-gprof
+/usr/bin/h2xs
+/usr/bin/x86_64-linux-gnu-ranlib
+/usr/bin/x86_64-linux-gnu-ld.gold
+/usr/bin/x86_64-linux-gnu-as
+/usr/bin/pod2text
+/usr/bin/x86_64-linux-gnu-nm
+/usr/bin/x86_64-linux-gnu-elfedit
+/usr/bin/x86_64-linux-gnu-strip
+/usr/bin/x86_64-linux-gnu-gcc-nm-12
+/usr/bin/perl5.36.0
+/usr/bin/x86_64-linux-gnu-ld.bfd
+/usr/bin/pydoc3.11
+/usr/bin/x86_64-linux-gnu-gcov-tool-12
+/usr/bin/b2sum
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/bin/pod2man
+/usr/bin/sha1sum
+/usr/bin/c89-gcc
+/usr/bin/pl2pm
+/usr/bin/h2ph
+/usr/bin/x86_64-linux-gnu-c++filt
+/usr/bin/sha512sum
+/usr/bin/x86_64-linux-gnu-gcc-12
+/usr/bin/x86_64-linux-gnu-gp-display-src
+/usr/bin/base32
+/usr/bin/x86_64-linux-gnu-gp-collect-app
+/usr/bin/cpan5.36-x86_64-linux-gnu
+/usr/bin/x86_64-linux-gnu-gp-archive
+/usr/bin/sha384sum
+/usr/bin/py3clean
+/usr/bin/x86_64-linux-gnu-gcov-dump-12
+/usr/bin/perl5.36-x86_64-linux-gnu
+/usr/bin/x86_64-linux-gnu-strings
+/usr/bin/x86_64-linux-gnu-gp-display-html
+/usr/bin/pygettext3.11
+/usr/bin/systemd-id128
+/usr/bin/x86_64-linux-gnu-dwp
+/usr/bin/bunzip2
+/usr/bin/x86_64-linux-gnu-gp-display-text
+/usr/bin/x86_64-linux-gnu-addr2line
+/usr/bin/py3compile
+/usr/bin/grub-syslinux2cfg
+/usr/bin/diff3
+/usr/bin/sha256sum
+/usr/sbin/dumpe2fs
+/usr/sbin/e2fsck
+/usr/sbin/e2freefrag
+/usr/sbin/e2undo
+/usr/sbin/e2scrub_all
+/usr/sbin/tune2fs
+/usr/sbin/e2image
+/usr/sbin/e4defrag
+/usr/sbin/mke2fs
+/usr/sbin/e4crypt
+/usr/sbin/killall5
+/usr/sbin/e2scrub
+/usr/sbin/resize2fs
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mTIME=$(date +"%H:%M")[27mTIME=$(date +"%H:%M")
+[?2004l[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mexport PS1='\u@\h-$TIME> '[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PS1='\u@\h-$TIME> '
+[?2004l[?2004heltex-pg2-v26@eltex-00:41> [7mecho $PS1[27mecho $PS1
+[?2004l\u@\h-$TIME>
+[?2004heltex-pg2-v26@eltex-00:41> [7mexport PS1[27mexport PS1
+[?2004l[?2004heltex-pg2-v26@eltex-00:41> bash
+[?2004l[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ [7mmkdir $(date +"%Y")-{01..12}[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir $(date +"%Y")-{01..12}
+[?2004lmkdir: cannot create directory ‘2025-01’: File exists
+mkdir: cannot create directory ‘2025-02’: File exists
+mkdir: cannot create directory ‘2025-03’: File exists
+mkdir: cannot create directory ‘2025-04’: File exists
+mkdir: cannot create directory ‘2025-05’: File exists
+mkdir: cannot create directory ‘2025-06’: File exists
+mkdir: cannot create directory ‘2025-07’: File exists
+mkdir: cannot create directory ‘2025-08’: File exists
+mkdir: cannot create directory ‘2025-09’: File exists
+mkdir: cannot create directory ‘2025-10’: File exists
+mkdir: cannot create directory ‘2025-11’: File exists
+mkdir: cannot create directory ‘2025-12’: File exists
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34m2025-01[0m  [01;34m2025-05[0m  [01;34m2025-09[0m  [01;34mD1[0m                             report_part1.txt
+[01;34m2025-02[0m  [01;34m2025-06[0m  [01;34m2025-10[0m  eltex-pg2-v26_part3_gt50M.log  task_1_1.md
+[01;34m2025-03[0m  [01;34m2025-07[0m  [01;34m2025-11[0m  eltex-pg2-v26_part3.log
+[01;34m2025-04[0m  [01;34m2025-08[0m  [01;34m2025-12[0m  eltex-pg2-v26_part.log
+[?2004h]0;eltex-pg2-v26@eltex: ~[01;32meltex-pg2-v26@eltex[00m:[01;34m~[00m$ exit
+[?2004lexit
+[?2004heltex-pg2-v26@eltex-00:41> exit
+[?2004lexit
+
+Script done on 2025-03-25 00:42:52+07:00 [COMMAND_EXIT_CODE="0"]
