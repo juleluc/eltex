@@ -1,0 +1,19 @@
+cd ~
+touch ${USER}_part3.log
+mkdir -p D1/D2/D3
+touch D1/D2/file.txt
+echo "f1f2f3" > D1/D2/file.txt
+ln D1/D2/file.txt D1/D2/D3/hardlink.txt
+ln -s D1/D2/file.txt D1/D2/D3/softlink.txt
+ls -ali D1/D3
+mv D1/D2/file.txt D1/
+ls -ali D1/D2/D3
+cat D1/D2/D3/hardlink.txt
+cat D1/D2/D3/symlink.txt
+rm -r D1/D2
+find / -type f -size +50M 2>/dev/null
+find / -type f -size +50M 2>/dev/null > eltex-pg2-v26_part3_gt50M.log
+find ~ -type f -mtime -1
+which find
+file $(which find)
+file /boot/initrd.img*
