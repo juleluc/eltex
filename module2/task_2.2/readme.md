@@ -8,3 +8,7 @@
 ## Запуск программы  
  - make  
  - ./my_program  
+
+## Запуск тестов  
+ - make test
+ - ./test
