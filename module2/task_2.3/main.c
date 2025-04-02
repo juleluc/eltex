@@ -1,43 +1,47 @@
 #include "main.h"
 
-int main(){
+int main()
+{
+    int (*operation_func[])(int, double *, double *) = {addition, subtraction, multiplication, division};
 
     while (1){
-        choice();
-        int choice_number;
-        float number1;
-        float number2;
-        double result = 0;
+        display_menu();
+        int operation;
         int count;
-        if (scanf("%d", &choice_number) != 1 || choice_number < 1){
+        if (scanf("%d", &operation) != 1){
             printf("Некорректный ввод\n");
-            return -1;
+            while (getchar() != '\n');
+            continue;
         }
 
-        if (choice_number > 5){
+        if (operation < 1 || operation > 5){
             printf("Введите из доступных операций: \n");
             continue;
         }
-        else if (choice_number != 5){
-
-            double (*operation[4])(int, double *) = {addition, subtraction, multiplication, division};
+        else if (operation != 5){
             double *numbers = get_array_value(&count);
-            if (choice_number == 4){
-                for (int i = 1; i < count; i++){
-                    if (numbers[i] == 0){
-                        printf("Деление на ноль\n");
-                        return 1;
-                    }
-                }
-            }
-
             if (numbers != NULL){
-                result = operation[choice_number - 1](count, numbers);
-                printf("Результат: %.3lf\n", result);
+                double result;
+                int status = operation_func[operation - 1](count, numbers, &result);
+                if (status == -1){
+                    printf("Ошибка: Деление на ноль\n");
+                }else{
+                    printf("Результат: %.3lf\n", result);
+                }
                 free(numbers);
             }
-        }
-        else
+        }else{
             return 0;
+        }
     }
+    return 0;
+}
+
+void display_menu()
+{
+    printf("1.Сложение\n");
+    printf("2.Вычитание\n");
+    printf("3.Умножение\n");
+    printf("4.Деление\n");
+    printf("5.Завершить программу\n");
 }
