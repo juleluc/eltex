@@ -55,7 +55,7 @@ int main()
     int number = 0;
     int number_choice;
 
-    if (!read_file(people, &number, "test.txt")) {
+    if (!read_file(people, &number, "contacts.txt")) {
         printf("Ошибка загрузки контактов\n");
     } else {
         printf("Контакты успешно загружены из файла\n");

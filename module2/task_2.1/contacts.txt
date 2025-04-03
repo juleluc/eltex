@@ -1,5 +1,5 @@
 Иван,Иванов,tele2,оператор,+9999999999,ivan@example.com,vk.com/ivan,telegram:ivan
-Петр,Петров,,,+79997654321,petr@example.com,,telegram:petr
+Петр,Петров,Завод,Начальник,+79997654321,petr@example.com,ok.ru/petr,telegram:petr
 Егор,Сидоров,greenpeace,Эколог,+8888888888,sidor@example.com,facebook.com/sidor,
-Мария,Кузнецова,,,,maria@example.com,,telegram:maria
-Анна,Смирнова,НГТУ,доцент,+777777777777,anna@example.com,instagram.com/anna,
+Мария,Кузнецова,DoDo,стажер,+1111111,maria@example.com,,telegram:maria
+Анна,Смирнова,НГТУ,доцент,+777777777777,anna@example.com,instagram.com/anna,telegram:anna
