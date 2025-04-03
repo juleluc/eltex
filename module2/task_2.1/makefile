@@ -3,14 +3,22 @@ CFLAGS = -g -c
 
 all: my_program
 
-my_program: main.o other_func.o
-	$(CC) main.o other_func.o -o my_program
+my_program: main.o contacts.o menu.o
+	$(CC) main.o contacts.o menu.o -o my_program
+
+test: test.o contacts.o menu.o
+	$(CC) test.o contacts.o menu.o -o test
 
 main.o: main.c
 	$(CC) $(CFLAGS) main.c
 
-other_func.o: other_func.c
-	$(CC) $(CFLAGS) other_func.c
+menu.o: menu.c
+	$(CC) $(CFLAGS) menu.c
 
+contacts.o: contacts.c
+	$(CC) $(CFLAGS) contacts.c
+
+test.o: test.c
+	$(CC) $(CFLAGS) test.c
 clean:
-	rm -rf *.o my_program
+	rm -rf *.o my_program test
