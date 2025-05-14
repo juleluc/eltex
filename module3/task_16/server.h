@@ -13,7 +13,7 @@
 #include <signal.h>
 #include <sys/wait.h>
 #include <fcntl.h>
-
+#include <sys/stat.h>
 #define FILE_BUFFER_SIZE 1024
 extern int nclients;
 
@@ -24,5 +24,6 @@ int receive_file(int sock, const char *filename, long filesize);
 void sigchld_handler(int signo);
 void printusers();
 void error(const char *msg);
+int create_directory(const char *dir_name);
 
 #endif

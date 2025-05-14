@@ -1,5 +1,19 @@
 #include "server.h"
 
+int create_directory(const char *dir_name) {
+    if (access(dir_name, F_OK) == -1) {
+        if (mkdir(dir_name, 0777) != 0){
+            perror("mkdir");
+            return -1; 
+        } else {
+            printf("Directory '%s' created successfully\n", dir_name);
+        }
+    } else {
+        printf("Directory '%s' already exists\n", dir_name);
+    }
+
+    return 0; 
+}
 
 void error(const char *msg) {
     perror(msg);

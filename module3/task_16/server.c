@@ -30,6 +30,11 @@ int main(int argc, char *argv[])
     if (bind(sockfd, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0)
         error("ERROR on binding");
 
+    if (create_directory("received") != 0) {
+        printf("Critical: Failed to create directory.\n");
+        close(sockfd);
+        exit(EXIT_FAILURE);
+    }
     listen(sockfd, 5);
     clilen = sizeof(cli_addr);
 
